@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Douglas Mansell - Portfolio - Tower</title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/index_style.css" />
+	<link rel="icon" type="image/png" href="../media/background/flavicon.png" />
+</head>
+<body>
+<div id="name"></div>
+	
+	<div id="topBorder">
+		<div id="topPicture"></div>
+	</div>
+	
+	<div id="bodyBackground">
+		<a href="../resume.shtml" > <button class="mobileButtonRight"> <p class="mobileNavText"> Resume </p> </button> </a>
+		<a href="../aboutme.shtml" > <button class="mobileButtonLeft"> <p class="mobileNavText"> About </p> </button> </a>
+		<a href="../contact.shtml" > <button class="mobileButtonRight" style="clear: both"> <p class="mobileNavText"> Contact </p> </button> </a>
+		<a href="../index.shtml" > <button class="mobileButtonLeft" style="clear: left"> <p class="mobileNavText"> Work </p> </button> </a>
+	
+		<div id="navigationLeft">
+			<ul>
+				<li>
+					<a href="../aboutme.shtml">About Me</a>
+				</li>
+				<li>
+					<a href="../index.shtml">Work</a>
+				</li>
+			</ul>
+		</div>
+	
+		<div id="navigationRight">
+			<ul>
+				<li>
+					<a href="../resume.shtml">Resume</a>
+				</li>
+				<li>
+					<a href="../contact.shtml">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- All page code goes here! -->	
+	<div id="bodyBase">
+		<img class="borderImage" src="../media/background/bodyTopBorder.jpg" alt="top body border" height="4" width="1010" style="float: right"/>
+		
+		<p class="workTitle"> Tower </p>
+		<hr class="style-six"/>
+		<br/>
+		
+		<h2 class="projectH2"> The Project </h2>
+		<p class="projectPara">
+			Built using Monogame 3.1. Design and programming team of 4 people, including myself.
+		</p>
+		<p class="projectPara"> 
+			Tower is a build-your-own-map tower defence style game.
+			Using the map editor provided with the game, the player is able to create a new map, 
+			place spawn portal, path and non-buildable location tiles. The player can save the 
+			map using a custom name, or load a previously saved one to edit further. Once saved,
+			the player is free to share the map with others, or to play it on their own.
+		</p>
+		<br/>
+		
+		<hr class="style-six"/>
+		<br>
+		<h2 class="projectH2"> My Responsibilities - Programmer / User Interface Design </h2>
+		<p class="projectPara" style="padding-top: 0px">
+			<b>Programmer</b><br/>
+			The systems I programmed included: Game-state controller and system, map-editor in it's entirety, user text input system,
+			save and load systems, user interface, and a small amount of gameplay algorithms. <br><br>
+			
+			Game-state Controller and System - In order to properly navigate the menus and run the game properly,
+			my team and I discovered early on that we needed a significant game-state system. For this project, I had to 
+			learn and understand how a system like this would work, implement a game-state controller class,
+			and test each screen-state after having programmed the system. Through this piece of the project,
+			I was able to create a base code structure for a new game-state screen as needed, greatly reducing 
+			the amount of work necessary to add more to the project.<br><br>
+			
+			Map-editor - For this part, I programmed the tile selection, brush, save and load,
+			and background selection systems. The save and load system utilizes a 2D array of integers,
+			which assigned specified tiles to each integer. 
+			
+			User Text Input System - For this part of the project, I contacted Liam Middlebrook 
+			<a href="https://github.com/liam-middlebrook/libXNADeveloperConsole">(Git Hub)</a> and worked with him
+			to modify code he programmed for my own purposes. Using this system, the user is able to use custom
+			map names to save and load, in addition to being able to see which maps are in the directory already.<br><br>
+			
+			<b>User Interface Design</b><br/>
+			 I designed and implemented the code for the menus, map-editor, and in-game user interfaces. 
+		</p>
+		<br/>
+		
+		<hr class="style-six"/>
+		<br>
+		<h2 class="projectH2"> Screenshots </h2>
+		<p class="projectPara" style="padding-top: 0px; font-size: 12px"><i>(Click to enlarge)</i></p>
+		<div class="screensContainer">
+			<table class="projectScreens">
+				<tr>
+					<td> 
+						<p class="projectScreensDesc"> Map Editor </p>
+						<img src="../media/works/tower/mapEditor.jpg" alt="Map Editor" height="250" width="250">
+						<hr class="style-six">
+					</td>
+					<td> 
+						<p class="projectScreensDesc"> In-game screen - monsters spawn and travel the track </p>
+						<img src="../media/works/tower/inGame.jpg" alt="In-game" height="250" width="250">
+						<hr class="style-six">
+					</td>
+					<td> 
+						<p class="projectScreensDesc"> Save / Load screen </p>
+						<img src="../media/works/tower/load.jpg" alt="Load" height="250" width="250">
+						<hr class="style-six">
+					</td>
+				</tr>
+			</table>
+			<table class="mobileProjectScreens">
+				<tr>
+					<td> 
+						<p class="projectScreensDesc"> Map Editor </p>
+						<img src="../media/works/tower/mapEditor.jpg" alt="Map Editor" height="250" width="250">
+						<hr class="style-six">
+					</td>
+					<td> 
+						<p class="projectScreensDesc"> In-game screen - monsters spawn and travel the track </p>
+						<img src="../media/works/tower/inGame.jpg" alt="In-game" height="250" width="250">
+						<hr class="style-six">
+					</td>
+					<td> 
+						<p class="projectScreensDesc"> Save / Load screen </p>
+						<img src="../media/works/tower/load.jpg" alt="Load" height="250" width="250">
+						<hr class="style-six">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br/>
+		<img class="borderImage" src="../media/background/bodyBottomBorder.jpg" alt="bottom body border" height="4" width="1010" style="float: left"/>
+	</div>
+	
+	<footer id="baseBoard">
+		<a href="https://www.linkedin.com/pub/douglas-mansell/a7/b2/b96">
+			<img src="../media/contact/linkedinimg.png" alt="LinkedInLogo" height="30" width="30" class="baseBoardImg"> <!--Linked In-->
+		</a>
+		<a href="https://github.com/Shukrat">
+			<img src="../media/contact/githubimg.png" alt="GitHubLogo" height="30" width="30" class="baseBoardImg"> <!--GitHub-->
+		</a>
+		<a href="https://twitter.com/DAMansell">
+			<img src="../media/contact/twitterimg.png" alt="TwitterLogo" height="30" width="30" class="baseBoardImg"> <!--Twitter-->
+		</a>
+		<div id="baseBoardTextBox">
+			<p id="baseBoardText"> 
+			Site designed and coded by Douglas Mansell <br>Copyright 2014 Douglas Mansell <br>All Rights Reserved <br>Last Modified: <!--#config timefmt="%B %e, %Y"--><!--#echo var="LAST_MODIFIED"-->
+			</p>
+		</div>
+	</footer>
+		
+</body>
+</html>

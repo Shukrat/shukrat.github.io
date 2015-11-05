@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Douglas Mansell - Portfolio - Works</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/index_style.css">
+	<link rel="icon" type="image/png" href="media/background/flavicon.png">
+</head>
+<body>
+	<div id="name"></div>
+	
+	<div id="topBorder">
+		<div id="topPicture"></div>
+	</div>
+	
+	<div id="bodyBackground">
+		<a href="resume.shtml" > <button class="mobileButtonRight"> <p class="mobileNavText"> Resume </p> </button> </a>
+		<a href="#" > <button class="mobileButtonLeft"> <p class="mobileNavText"> About </p> </button> </a>
+		<a href="contact.shtml" > <button class="mobileButtonRight" style="clear: both"> <p class="mobileNavText"> Contact </p> </button> </a>
+		<a href="index.shtml" > <button class="mobileButtonLeft" style="clear: left"> <p class="mobileNavText"> Work </p> </button> </a>
+	
+		<div id="navigationLeft">
+			<ul>
+				<li>
+					<a href="#" style="border-bottom-style: double; border-bottom-width: 3px">About Me</a>
+				</li>
+				<li>
+					<a href="index.shtml">Work</a>
+				</li>
+			</ul>
+		</div>
+	
+		<div id="navigationRight">
+			<ul>
+				<li>
+					<a href="resume.shtml">Resume</a>
+				</li>
+				<li>
+					<a  href="contact.shtml">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="bodyBase">	
+			<h3 class="mobileHeader"> About Me </h3>
+			<img class="borderImage" src="media/background/bodyTopBorder.jpg" alt="top body border" height="4" width="1010" style="float: right">
+			
+			<img id="whoamiPic" src="media/aboutme/snowpile3.png" alt="Doug in Snow" height="420" width="420">
+			<p id="whoami">
+			My name is Douglas Mansell. I am a transfer student in Rochester Institute of Technology's
+			Interactive Games and Media department. My passion lies in project management, 
+			however I've very much enjoyed being involved with web development, design, and 
+			programming in general. 
+			
+			<br><br>Prior to my arrival at RIT, I spent 3 years on active duty in the United States Coast Guard.
+			I am currently still in the USCG, but as a reserve Lieutenant. Throughout my time in the USCG,
+			I learned a great deal about project, personnel, and resource management. I found
+			the planning and execution of events or projects that involved coordination with multiple
+			groups and schedules to be challenging, but incredibly rewarding.
+			
+			<br><br>At RIT, I've tried to take on roles that let me expand my skill set. My abilities
+			as a leader have greatly helped groups I've worked with, and I have learned an 
+			incredible amount while here, both from other students, and from the faculty.
+			
+			<br><br>Finding a position allowing me to draw on all of my experiences would be an amazing 
+			opportunity, and I know I can bring a lot to any team that hires me.
+			
+			</p>
+			<br>
+			<img class="borderImage" src="media/background/bodyBottomBorder.jpg" alt="bottom body border" height="4" width="1010" style="float: left">
+		</div>
+		
+	<section id="footerSection">
+	<!--#include file="ssi/footer.shtml"-->
+	</section>
+</body>
+</html>
