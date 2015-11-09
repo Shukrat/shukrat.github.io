@@ -2,94 +2,88 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Douglas Mansell - Portfolio - Works</title>
+	<title>Douglas Mansell - Portfolio</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/index_style.css">
-	<link rel="icon" type="image/png" href="media/background/flavicon.png">
-	
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
-	<div id="name"></div>
+	<header id="topBar">
+		<a class="indexLink" href="#">
+			<h1 class="siteTitle">Douglas Mansell</h1>
+			<h2 class="siteSubtitle">Producer - Designer - Bearded Man</h2>
+		</a>
+	</header>
 	
-	<div id="topBorder">
-		<div id="topPicture"></div>
+	<div id="page">
+		<nav id="site-nav">
+			<div id="navMenu">
+				<ul>
+					<li class="navItem">
+						<a href="aboutme.html">About Me</a>
+					</li>
+					<li class="navItem">
+						<a href="#" style="color: #197ED1">Works</a>
+					</li>
+					<li class="navItem">
+						<a href="resume.html">Resume</a>
+					</li>
+					<li class="navItem">
+						<a href="contact.html">Contact Me</a>
+					</li>
+				</u>
+			</div>
+		</nav>
+		
+		<div class="content">
+			<a href="works/HEXES.html">
+				<article class="workItem" style="background-image: url(media/HexesLogo.jpg);">
+					<header class="workItemHeader">
+						<h2 class="workItemH2">
+							HEXES!!
+						</h2>
+					</header>
+					<div class="workItemFooter">
+						<h2 class="workItemFooterH2">
+							Current Project
+						</h2>
+					</div>
+				</article>
+			</a>
+			
+			<a href="#">
+				<article class="workItem" data-url="#">
+					<header class="workItemHeader">
+						<h2 class="workItemH2">
+							Bloxeo
+						</h2>
+					</header>
+					<div class="workItemFooter">
+						<h2 class="workItemFooterH2">
+							Current Project
+						</h2>
+					</div>
+				</article>
+			</a>
+			
+			<a href="#">
+				<article class="workItem" data-url="#" style="background-image: url(media/Fortnite_logo.jpg);">
+					<header class="workItemHeader">
+						<h2 class="workItemH2">
+							Fortnite
+						</h2>
+					</header>
+				</article>
+			</a>
+			
+			<a href="#">	
+				<article class="workItem" data-url="#">
+					<header class="workItemHeader">
+						<h2 class="workItemH2">
+							Soul Bound
+						</h2>
+					</header>
+				</article>
+			</a>
 	</div>
-	
-	<div id="bodyBackground">
-		<a href="resume.shtml" > <button class="mobileButtonRight"> <p class="mobileNavText"> Resume </p> </button> </a>
-		<a href="aboutme.shtml" > <button class="mobileButtonLeft"> <p class="mobileNavText"> About </p> </button> </a>
-		<a href="contact.shtml" > <button class="mobileButtonRight" style="clear: both"> <p class="mobileNavText"> Contact </p> </button> </a>
-		<a href="#" > <button class="mobileButtonLeft" style="clear: left"> <p class="mobileNavText"> Work </p> </button> </a>
-	
-		<div id="navigationLeft">
-			<ul>
-				<li>
-					<a href="aboutme.shtml">About Me</a>
-				</li>
-				<li>
-					<a href="#" style="border-bottom-style: double; border-bottom-width: 3px" >Work</a>
-				</li>
-			</ul>
-		</div>
-	
-		<div id="navigationRight">
-			<ul>
-				<li>
-					<a href="resume.shtml">Resume</a>
-				</li>
-				<li>
-					<a  href="contact.shtml">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	
-	<div id="bodyBase" style="background-color: transparent; background-image: none; margin-top: 0px">
-	<br>
-		<div class="workLeftColumn"> 
-			<a href="worksPages/soulBound.shtml" class="workLink">
-				<img class="workImageLeft" src="media/works/soulBound.jpg" alt="Soul Bound" height="250" width="250">
-					<p class="pWorkColLeft"> Soul Bound </p>
-					<p class="pWorkColLeft"> (Producer, Designer, Writer) </p>
-			</a>
-		</div>
-		
-		<div class="workRightColumn"> 
-			<a href="worksPages/perdition.shtml" class="workLink">
-				<img class="workImageRight" src="media/works/perdition.jpg" alt="Sable Otter" height="250" width="250">
-					<p class="pWorkColRight"> Perdition </p>
-					<p class="pWorkColRight"> (Project Lead, Designer) </p>
-			</a>
-		</div>
-		
-		<div class="workLeftColumn"> 
-			<a href="worksPages/tower.shtml" class="workLink">
-				<img class="workImageLeft" src="media/works/tower.jpg" alt="Tower" height="250" width="250">
-					<p class="pWorkColLeft"> Tower </p>
-					<p class="pWorkColLeft"> (Programmer) </p>
-			</a>
-		</div>
-		
-		<div class="workRightColumn">
-			<a href="worksPages/asteroids.shtml" class="workLink">
-				<img class="workImageRight" src="media/works/asteroidsProto.jpg" alt="Asteroids Remake" height="250" width="250">
-					<p class="pWorkColRight"> Ebola: Endemic (Prototype) </p>
-					<p class="pWorkColRight"> (Programmer) </p>
-			</a>
-		</div>
-		
-		<div class="workLeftColumn"> 
-			<a href="worksPages/chasingFleeing.shtml" class="workLink">
-				<img class="workImageLeft" src="media/works/chasingFleeing.jpg" alt="Chasing and Fleeing" height="250" width="250">
-					<p class="pWorkColLeft"> Chasing and Fleeing (Prototype) </p>
-					<p class="pWorkColLeft"> (Programmer) </p>
-			</a>
-		</div>
-	
-	</div>
-	
-	<section id="footerSection">
-	<!--#include file="ssi/footer.shtml"-->
-	</section>
 </body>
 </html>

@@ -1,0 +1,216 @@
+@font-face{
+	font-family: CL;
+	src: url(../media/fonts/Champagne&LimousinesBold.ttf);
+}
+@font-face{
+	font-family: Song;
+	src: url(../media/fonts/Pleasewritemeasong.ttf);
+}
+@font-face{
+	font-family: Simple;
+	src: url(../media/fonts/simplicity.ttf);
+}
+
+* { margin: 0; padding: 0;}
+a:link {font-weight: none; text-decoration:none; color: transparent;}
+a:active {font-weight: none; text-decoration:none;}
+a:visited {font-weight: none; text-decoration:none;}
+a:hover {font-weight: none; text-decoration:none;}
+body{ 
+	background-image: url(../media/straws.png);
+	display: flex;
+	flex-direction: column;
+}
+
+#topBar{
+	text-align: center;
+	width: 100%;
+	border-bottom: 3px dashed rgba(150,150,150,0.85);
+}
+
+.indexLink{
+	text-decoration: none;
+}
+
+.siteTitle{
+	font-family: Simple;
+	color: black;
+	font-size: 40pt;
+	margin-bottom: 5pt;
+	margin-top: 5pt;
+}
+
+.siteSubtitle{
+	font-family: Simple;
+	color: #5E5E5E;
+	font-size: 20pt;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#page{
+	background-color: rgba(230,230,230,0.7);
+	flex: 1;
+}
+
+/* Navigation Stuff */
+#site-nav{
+	text-align: center;
+	padding-top: 25pt;
+}
+#navMenu{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.navItem{
+	font-family: CL;
+	font-size: 20pt;
+	display: inline;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+.navItem a{
+	color: black;
+	transition: color 0.5s, border 2s, margin 0.5s;
+}
+.navItem a:hover{
+	color: #197ED1;
+	margin-left: 28pt;
+	margin-right: 28pt;
+}
+
+/* Works Page */
+.content{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 20pt;
+}
+.workItem{
+	background-color: white;
+	width: 240pt;
+	height: 280pt;
+	margin-left: 10pt; 
+	margin-top: 15pt;
+	box-shadow: 2px 4px 6px #888888;
+	display: inline-block;
+	position: relative;
+}
+
+.workItemHeader{
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	text-align: center;
+	background-color: rgba(242,242,242,0.85);
+	box-shadow: 1px 1px 1px #888888;
+	height: 25pt;
+}
+.workItemH2{
+	text-decoration: none;
+	text-align: center;
+	font-family: CL;
+	font-size: 20pt;
+	color: black !important;
+	transition: color 0.5s;
+}
+.workItemH2:hover{
+	color: #197ED1 !important;
+}
+.workItemFooterH2{
+	color: black !important;
+	font-family: CL;
+	font-size: 20pt;
+}
+.workItemFooter{
+	border-top: 2px dashed rgba(150,150,150,0.85);
+	background-color: rgba(242,242,242,0.85);	
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+}
+
+/* About Me Page */
+.aboutMeContent{
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20pt;
+}
+#meimage{
+	border-radius: 50%;
+	border: 3px solid rgba(150,150,150,0.85);
+	box-shadow: 0px 0px 10px black;
+	margin-top: 10pt;
+}
+.aboutMeBox{
+	background-color: rgba(255,255,255,0.5);
+	width: 100%;
+	margin-left: 10pt; 
+	margin-top: 15pt;
+	box-shadow: 0px 2px 6px #888888;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 10pt;
+}
+.aboutMeH2{
+	text-decoration: none;
+	text-align: left;
+	margin-left: 30pt;
+	margin-top: 20pt;
+	font-family: CL;
+	font-size: 20pt;
+	color: black !important;
+}
+.aboutMeP{
+	font-family: Calibri;
+	font-size: 14pt;
+	text-align: left;
+	margin-left: 20pt;
+	margin-right: 20pt;
+	margin-top: 30pt;
+	margin-bottom: 20pt;
+}
+
+/* Resume Page */
+.resumeContent{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20pt;
+}
+#resumePara{
+	font-family: CL;
+	font-size: 10pt;
+	color: black;
+}
+#resumePluginMiss{
+	font-family: CL;
+	font-size: 16pt;
+	color: black;
+}
+
+/* Contact Page */
+.contactH2{
+	text-decoration: none;
+	text-align: left;
+	margin-left: 30pt;
+	margin-top: 20pt;
+	margin-bottom: 20pt;
+	font-family: CL;
+	font-size: 20pt;
+}
+.contactP{
+	font-family: Calibri;
+	font-size: 14pt;
+	text-align: left;
+	color: black;
+	margin-left: 20pt;
+}
+.contactP a{
+	color: black;
+}
