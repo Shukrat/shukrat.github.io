@@ -339,6 +339,9 @@ body{
 	.contactH2{
 		font-size: 30pt;
 	}
+	.contactP{
+		font-size: 20pt;
+	}
 	.contactP a{
 		color: #197ED1;
 	}
