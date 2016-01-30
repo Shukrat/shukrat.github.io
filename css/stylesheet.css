@@ -225,7 +225,16 @@ body{
 	font-family: Calibri;
 	font-size: 14pt;
 }
-
 .screenshot{
 	margin: 5pt;
+}
+
+/* Bloxeo */
+.featuresUL{
+	text-align: left;
+	margin-left: 35pt;
+	margin-right: 20pt;
+	margin-bottom: 20pt;
+	font-family: Calibri;
+	font-size: 14pt;
 }
