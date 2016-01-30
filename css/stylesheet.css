@@ -337,10 +337,10 @@ body{
 	
 	/* Contact Page */
 	.contactH2{
-		font-size: 40pt;
+		font-size: 30pt;
 	}
 	.contactP{
-		font-size: 25pt;
+		font-size: 14pt;
 	}
 	.contactP a{
 		color: #197ED1;
