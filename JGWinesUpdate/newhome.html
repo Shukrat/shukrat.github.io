@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>John Given Wines</title>
 	<meta charset="utf-8" />
@@ -7,15 +7,17 @@
 	<meta content="John Given, Italian, Wine, Importer" name="keywords">
 	<meta content="John Given Wines - Importer of Fine Italian Wines from 10 regions of Italy." name="Description">
 	
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/newstylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<div id="pageContent">
 		<header id="titleSection">
-			<span class="titleSectionSpan">
+			<span id="titleSectionSpanLeft">
 				<img src="media/TransparentLogo.png" height="75" width="75">
 			</span>
-			<span class="titleSectionSpan">
+			<span id="titleSectionSpanMiddle">
 				<p id="companyTitle">
 					John Given Wines
 				</p>
@@ -23,19 +25,12 @@
 					Importer of Fine Italian Wines
 				</p>
 			</span>
-			<span class="titleSectionSpan">
-				<form action="MainPages/SearchResults.html" id="cse-search-box">
-					<small><b>Search John Given Wines</b></small></br>
-					<input name="cx" value="002717399071514779202:wdv3rmdtq-c" type="hidden">
-					<input name="cof" value="FORID:9" type="hidden">
-					<input name="q" size="25" type="text"> </br>
-					<input name="sa" value="Search" type="submit">
-				</form>
-				<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+			<span id="titleSectionSpanRight">
 			</span>
 		</header>
 	
 		<nav id="navBar">
+			<img src="media/Menu.png" height="100" width="100" id="navMenu">
 			<ul id="navUL">
 				<li class="navItem">
 					<a href="#"> Home </a>
@@ -47,16 +42,7 @@
 					<a href="#"> Tastings and Events </a>
 				</li>
 				<li class="navItem">
-					<a href="#"> Library of Past Vintages </a>
-				</li>
-				<li class="navItem">
-					<a href="#"> Organic Wines </a>
-				</li>
-				<li class="navItem">
 					<a href="#"> About the Company </a>
-				</li>
-				<li class="navItem">
-					<a href="#"> Contact Us </a>
 				</li>
 			</ul>
 		</nav>
@@ -102,16 +88,7 @@
 		
 		<article id="rightColumn">
 			<h1 class="featuredH1"> Tastings... </h1>
-			<div id="wordFromACCard">
-				<p id="wordsFromAC">
-					“To discover good wine, you really need to love wine.
-					Our mission has always centered on finding wines
-					that are delicious and fun as well as interesting and good value.
-					With so many varieties of wine to sample, I am always looking
-					forward to a new food and wine experience.” 
-					--- Anne-Catherine Given
-				</p>
-			</div>
+			
 			
 			<div class="infoCard">
 				<p class="infoCardTitle">
