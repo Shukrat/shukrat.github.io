@@ -1,0 +1,318 @@
+* {margin: 0; padding: 0;}
+a:link {font-weight: none; text-decoration:none;}
+a:active {font-weight: none; text-decoration:none;}
+a:visited {font-weight: none; text-decoration:none;}
+a:hover {font-weight: none; text-decoration:none;}
+
+body{
+	background-image: url("../media/Background-Faint.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (min-width: 320px){
+	body{
+		background-image: none;
+		background-color: #E3FAE1;
+	}
+	#titleSectionSpanLeft, #titleSectionSpanRight{
+		display: none;
+	}
+	#titleSectionSpanMiddle{
+		width: 100%;
+		text-align: center;
+	}
+	#companyTitle{
+		color: black;
+		font-family: Garamond;
+		font-style: italic; 
+		font-size: 60pt;
+		font-weight: bold;
+	}
+	#companySubTitle{
+		color: black;
+		font-family: Garamond;
+		font-style: italic; 
+		font-size: 40pt;
+		font-weight: bold;
+	}
+	
+	#pageContent{
+		margin: auto;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.07);
+	}
+	
+	#navMenu{
+		display: block;
+		margin: auto;
+	}
+	#navMenu:hover{
+		cursor: pointer;
+	}
+	#navBar{
+		text-align: center;
+		margin-top: 15pt;
+		padding-bottom: 5pt;
+		box-shadow: 0pt 1pt 0pt rgb(100, 100, 100);
+		width: 100%;
+		height: auto;
+
+	}
+	#navUL{
+		display: none;
+	}
+	.navItem{
+		display: block;
+		margin: 20pt;
+		font-size: 14pt;
+		font-family: Arial;
+	}
+	
+	#leftColumn{ 
+		width: 100%;
+		text-align: center;
+	}
+	#rightColumn{ 
+		width: 100%;
+	}
+	
+	
+	/* Initial wine card css */
+	.featuredH1{
+		padding-top: 20pt;
+		padding-bottom: 20pt;
+		text-align: center;
+		font-family: Arial;
+	}
+	.wineCard{
+		width: 300pt;
+		height: 280pt;
+		background-color: white;
+		margin: 15pt;
+		box-shadow: 2px 4px 6px #888888;
+		border-radius: 4pt;
+		display: inline-block;
+	}
+	.wineCardImage{
+		padding-top: 10pt;
+	}
+	.newVintageLabel{
+		color: rgb(204, 0, 0);
+		font-family: Garamond;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 22pt;
+	}
+	.wineCardTitle{
+		margin-top: 10pt;
+		padding: 5pt;
+		padding-bottom: 5pt;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 22pt;
+	}
+	.wineCardLink{
+		padding: 5pt;
+		font-family: Arial;
+		font-size: 22pt;
+	}
+	
+	.infoCard{
+		width: 85%;
+		background-color: white;
+		margin: auto;
+		margin-top: 15pt;
+		margin-bottom: 30pt;
+		padding-bottom: 5pt;
+		box-shadow: 2px 4px 6px #888888;
+		border-radius: 4pt;
+	}
+	.infoCardTitle{
+		padding: 10pt;
+		text-align: center;
+		font-family: Arial;
+		font-size: 20pt;
+	}
+	.infoCardText{
+		margin: 10pt;
+		font-family: Arial;
+		font-size: 14pt;
+	}
+
+	#tastingList{
+		list-style-position: inside;
+	}
+	
+}
+
+@media (min-width: 481px){
+
+}
+
+@media (min-width: 641px) { 
+
+}
+
+@media (min-width: 961px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}
+
+@media (min-width: 1190px) {
+
+}
+
+@media (min-width: 1500px){
+
+}
+
+@media (min-width: 1620px){
+
+}
+
+
+/*
+#pageContent{
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.07);
+}
+
+/* Title Bar CSS - Logo, Title, and Page Search */
+/*
+#titleSection{
+	display: inline;
+	height: 75pt;
+	width: 100%;
+}
+#titleSectionSpanLeft, #titleSectionSpanMiddle, #titleSectionSpanRight{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+#companyTitle{
+	color: black;
+	font-family: Garamond;
+	font-style: italic; 
+	font-size: 28pt;
+	font-weight: bold;
+}
+#companySubTitle{
+	color: black;
+	font-family: Garamond;
+	font-style: italic; 
+	font-size: 24pt;
+	font-weight: bold;
+}
+*/
+
+/* Nav Bar CSS - For links */
+
+
+/* Home Page CSS - Columns */
+/*
+#leftColumn{ 
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+}
+/*
+#rightColumn{ 
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+*/
+
+/* Featured / New Vintage Wines and Wine Cards */
+/*
+.featuredH1{
+	padding-top: 20pt;
+	padding-bottom: 20pt;
+	text-align: center;
+	font-family: Arial;
+}
+.wineCard{
+	width: 240pt;
+	height: 220pt;
+	background-color: white;
+	margin-left: 50pt;
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+	box-shadow: 2px 4px 6px #888888;
+	border-radius: 4pt;
+	display: inline-block;
+	float: left;
+}
+.wineCardImage{
+	padding-top: 10pt;
+}
+.newVintageLabel{
+	color: rgb(204, 0, 0);
+	font-family: Garamond;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.wineCardTitle{
+	margin-top: 10pt;
+	padding-bottom: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+.wineCardLink{
+	font-family: Arial;
+}
+*/
+
+/* Other info on home page */
+/*
+#wordFromACCard{
+	width: 70%;
+	height: 220pt;
+	background-color: white;
+	margin: auto;
+	margin-top: 15pt;
+	margin-bottom: 30pt;
+	box-shadow: 2px 4px 6px #888888;
+	border-radius: 4pt;
+	display: flex;
+}
+#wordsFromAC{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-family: Garamond;
+	font-size: 16pt;
+	font-weight: bold;
+}
+.infoCard{
+	width: 70%;
+	background-color: white;
+	margin: auto;
+	margin-top: 15pt;
+	margin-bottom: 30pt;
+	padding-bottom: 5pt;
+	box-shadow: 2px 4px 6px #888888;
+	border-radius: 4pt;
+}
+.infoCardTitle{
+	padding: 10pt;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20pt;
+}
+.infoCardText{
+	margin: 10pt;
+	font-family: Arial;
+	font-size: 14pt;
+}
+
+#tastingList{
+	list-style-position: inside;
+}
+*/
