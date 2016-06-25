@@ -22,7 +22,7 @@ body{
 	height: 75pt;
 	width: 100%;
 }
-.titleSectionSpan{
+#titleSectionSpanLeft, #titleSectionSpanMiddle, #titleSectionSpanRight{
 	display: inline-block;
 	width: 33%;
 	text-align: center;
@@ -129,8 +129,9 @@ body{
 	display: flex;
 	text-align: center;
 	align-items: center;
-	font-family: Arial;
-	font-size: 18pt;
+	font-family: Garamond;
+	font-size: 16pt;
+	font-weight: bold;
 }
 .infoCard{
 	width: 70%;
@@ -156,4 +157,80 @@ body{
 
 #tastingList{
 	list-style-position: inside;
+}
+
+@media (min-width: 320px){
+	#titleSectionSpanLeft, #titleSectionSpanRight{
+		display: none;
+	}
+	#titleSectionSpanMiddle{
+		width: 100%;
+	}
+}
+
+@media (min-width: 481px){
+
+}
+
+@media (min-width: 641px) { 
+
+}
+
+@media (min-width: 961px) {
+	#titleSectionSpanLeft{
+		display: inline-block;
+		width: 49%;
+	}
+	#titleSectionSpanMiddle{
+		width: 49%;
+	}
+}
+
+@media (min-width: 1025px) {
+	.wineCard{
+		margin-left: 10pt;
+		float: none;
+	}
+}
+
+@media (min-width: 1189px){
+	.wineCard{
+		margin-left: 0pt;
+		float: none;
+	}
+}
+
+@media (min-width: 1190px) {
+	#titleSectionSpanLeft, #titleSectionSpanRight, #titleSectionSpanMiddle{
+		display: inline-block;
+		width: 33%;
+	}
+	.wineCard{
+		margin-left: 0pt;
+		float: none;
+	}
+}
+
+@media (min-width: 1500px){
+	.wineCard{
+		float: none;
+	}
+}
+@media (min-width: 1501px){
+	.wineCard{
+		margin-left: 10pt;
+		float: left;
+	}
+}
+
+@media (min-width: 1620px){
+	.wineCard{
+		margin-left: 20pt;
+	}
+}
+
+@media (min-width: 1736px){
+	.wineCard{
+		margin-left: 50pt;
+	}
 }
