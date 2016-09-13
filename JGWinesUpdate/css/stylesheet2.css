@@ -1,0 +1,42 @@
+* {margin: 0; padding: 0;}
+a:link {font-weight: none; text-decoration:none;}
+a:active {font-weight: none; text-decoration:none;}
+a:visited {font-weight: none; text-decoration:none;}
+a:hover {font-weight: none; text-decoration:none;}
+
+#pageContent{
+  margin: auto;
+  width: 1014px;
+}
+
+#titleSection{
+	display: inline;
+	height: 75pt;
+	width: 100%;
+}
+#titleSectionSpanLeft, #titleSectionSpanMiddle{
+	display: inline-block;
+}
+#titleSectionSpanLeft{
+  width: 25%;
+  text-align: right;
+}
+#titleSectionSpanMiddle{
+  width: 74%;
+  text-align: left;
+}
+
+#companyTitle{
+	color: black;
+	font-family: Garamond;
+	font-style: italic;
+	font-size: 28pt;
+	font-weight: bold;
+}
+#companySubTitle{
+	color: black;
+	font-family: Garamond;
+	font-style: italic;
+	font-size: 24pt;
+	font-weight: bold;
+}
