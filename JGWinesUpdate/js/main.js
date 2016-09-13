@@ -27,9 +27,9 @@ App.Main = {
   init: function(){
     console.log("App.Main.init() called");
     this.filesLoader(function(){
-      console.log("Wines:" + this.winesJSON);
-      console.log("Regions" + this.regionsJSON);
-      console.log("Tastings" + this.tastingsJSON);
+      console.log("Wines:" + JSON.stringify(this.winesJSON));
+      //console.log("Regions" + this.regionsJSON);
+      //console.log("Tastings" + this.tastingsJSON);
     });
   }
 };
