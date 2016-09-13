@@ -15,7 +15,7 @@ App.Main = {
   // Methods
   init: function(){
     console.log("App.Main.init() called");
-    winesJSON = "/builderFiles/wines.json");
+    winesJSON = "JGWinesUpdate/builderFiles/wines.json");
     console.log(winesJSON);
   }
 
