@@ -14,27 +14,22 @@ App.Main = {
 
   // Methods
   filesLoader: function(callback){
-    winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    regionsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    tastingsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    $.onAjaxSuccess(function(){
+    this.winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
+    this.regionsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
+    this.tastingsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
+    $(document).ajaxSuccess(function(){
       console.log("Files loader complete");
       callback();
     });
     console.log("Entered filesLoader");
-  }
+  },
 
   init: function(){
     console.log("App.Main.init() called");
-    filesLoader(function(){
-      console.log("Wines:" + winesJSON);
-      console.log("Regions" + regionsJSON);
-      console.log("Tastings" + tastingsJSON);
+    this.filesLoader(function(){
+      console.log("Wines:" + this.winesJSON);
+      console.log("Regions" + this.regionsJSON);
+      console.log("Tastings" + this.tastingsJSON);
     });
-
-  },
-
-
-
-
+  }
 };
