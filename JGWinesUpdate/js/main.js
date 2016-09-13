@@ -21,7 +21,7 @@ App.Main = {
       console.log("Tastings" + tastingsJSON);
     });
 
-  }
+  },
 
   filesLoader: function(callback){
     winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
