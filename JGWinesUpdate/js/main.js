@@ -27,10 +27,10 @@ App.Main = {
     winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
     regionsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
     tastingsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    $.onAjaxSuccess: function(){
+    $.onAjaxSuccess(function(){
       console.log("Files loader complete");
       callback();
-    };
+    });
     console.log("Entered filesLoader");
   }
 
