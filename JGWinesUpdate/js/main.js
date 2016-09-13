@@ -14,9 +14,9 @@ App.Main = {
 
   // Methods
   filesLoader: function(callback){
-    this.winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    this.regionsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
-    this.tastingsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
+    this.winesJSON = $.getJSON("builderFiles/wines.json");
+    this.regionsJSON = $.getJSON("builderFiles/wines.json");
+    this.tastingsJSON = $.getJSON("builderFiles/wines.json");
     $(document).ajaxSuccess(function(){
       console.log("Files loader complete");
       callback();
