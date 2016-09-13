@@ -13,16 +13,6 @@ App.Main = {
   // Modules
 
   // Methods
-  init: function(){
-    console.log("App.Main.init() called");
-    filesLoader(function(){
-      console.log("Wines:" + winesJSON);
-      console.log("Regions" + regionsJSON);
-      console.log("Tastings" + tastingsJSON);
-    });
-
-  },
-
   filesLoader: function(callback){
     winesJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
     regionsJSON = $.getJSON("JGWinesUpdate/builderFiles/wines.json");
@@ -33,6 +23,18 @@ App.Main = {
     });
     console.log("Entered filesLoader");
   }
+
+  init: function(){
+    console.log("App.Main.init() called");
+    filesLoader(function(){
+      console.log("Wines:" + winesJSON);
+      console.log("Regions" + regionsJSON);
+      console.log("Tastings" + tastingsJSON);
+    });
+
+  },
+
+
 
 
 };
