@@ -1,0 +1,115 @@
+{
+	"name" : "",
+	"size" : "Tiny",
+	"space" : "2.5 ft. x 2.5 ft.",
+	"type" : "Abberation",
+	"alignment" : "Chaotic Evil",
+	"armorClass" : 15,
+	"armorClassType" : "natural armor",
+	"hitPoints" : "13 (3d8)",
+	"speed" : {
+		"walking" : "20 ft.",
+		"burrow" : "",
+		"climb" : "",
+		"fly" : "20 ft.",
+		"swim" : ""
+	},
+	"challengeRating" : "0",
+	"proficiency" : 2,
+	"exp" : 10,
+	"abilityScores" : {
+		"str" : 10,
+		"dex" : 14,
+		"con" : 10,
+		"int" : 12,
+		"cha" : 11
+	},
+	"savingThrows" : {
+		"str" : "",
+		"dex" : "",
+		"con" : "+6",
+		"int" : "+8",
+		"cha" : "+4"
+	},
+	"skills" : {
+		"acrobatics" : "",
+		"animalHandling" : "",
+		"arcana" : "",
+		"athletics" : "",
+		"deception" : "",
+		"history" : "",
+		"insight" : "",
+		"intimidation" : "",
+		"medicine" : "",
+		"nature" : "",
+		"perception" : "",
+		"performance" : "",
+		"persuasion" : "",
+		"religion" : "",
+		"slightOfHand" : "",
+		"stealth" : "",
+		"survival" : ""
+	},
+	"damageResistances" : [
+		"radiant",
+		"bludgeoning, piercing, and slashing from nonmagical weapons"
+	],
+	"damageImmunities" : [
+		"necrotic",
+		"poison"
+	],
+	"conditionImmunities" : [
+		"charmed",
+		"exhausted",
+		"frightened"
+	],
+	"senses" : {
+		"blindSight" : 0,
+		"darkVision" : 0,
+		"tremorSense" : 0,
+		"trueSight" : 0,
+		"passivePerception" : 15
+	},
+	"languages" : [
+		"Auran",
+		"Common"
+	],
+	"telepathy" : "120 ft.",
+	"specialTraits" : [
+		{
+			"trait" : "Angelic Weapons.",
+			"description" : "The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack)."
+		},
+		{
+			"trait" : "Innate Spellcasting.",
+			"description" : "The deva's spell casting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:"
+		}
+	],
+	"actions" : [
+		{
+			"action" : "Multiattack.",
+			"description" : "The aboleth makes three tentable attacks."
+		},
+		{
+			"action" : "Tentacle.",
+			"type" : "Melee Weapon Attack:",
+			"description" : "+9 to hit, reach 10ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage."
+		}
+	],
+	"reactions" : [
+		{
+			"reaction" : "Spell Reflection.",
+			"description" : ""
+		}
+	],
+	"legendaryActions" : [
+		{
+			"action" : "",
+			"description" : "The aboleth can take 3 legendary actions, choosing from the options below."
+		},
+		{
+			"action" : "Detect.",
+			"description" : "The aboleth makes a Wisdom (Perception) check."
+		}
+	]
+}	
